@@ -1,0 +1,134 @@
+{
+ "run": "M5_E_realistic_s1_s20",
+ "mode": "live",
+ "maze": {
+  "id": "M5",
+  "name": "Micromouse training 8x8 test2",
+  "root": "R",
+  "goal": "c7_8",
+  "nodes": 52,
+  "edges": 65,
+  "cycles": 14,
+  "start_pose": [
+   0.0,
+   -1.422634,
+   1.5707963267948966
+  ]
+ },
+ "configuration": {
+  "name": "E",
+  "description": "all: ODOM + gyro + PROX-LOC + LiDAR",
+  "estimator": "ekf",
+  "pose_sensors": [
+   "encoders",
+   "gyro",
+   "proximity",
+   "lidar"
+  ],
+  "heading_source": "gyro",
+  "gyro_zupt": true,
+  "prox_loc_update": true,
+  "lidar_update": true
+ },
+ "noise": {
+  "profile": "realistic",
+  "seed": 1,
+  "scale": null,
+  "gyro": {
+   "part": "InvenSense MPU-6050 (FS_SEL=0, +-250 deg/s)",
+   "range_rad_s": 4.363323129985824,
+   "lsb_rad_s": 0.00013323124061025415,
+   "noise_rms_rad_s": 0.0008726646259971648,
+   "initial_bias_max_rad_s": 0.3490658503988659,
+   "bias_rw_rad_s_sqrt_s": 3.490658503988659e-05,
+   "scale_residual_sd": 0.003,
+   "drawn_initial_bias_rad_s": -0.3291138244617906,
+   "drawn_scale_error": 0.0020064152368831955
+  },
+  "lidar": {
+   "part": "Hokuyo URG-04LX-UG01",
+   "near_limit_m": 1.0,
+   "sd_near_m": 0.015,
+   "sd_rel_far": 0.015,
+   "resolution_m": 0.001,
+   "min_range_m": 0.02,
+   "max_range_m": 5.0,
+   "scan_period_s": 0.1
+  },
+  "proximity": {
+   "part": "ASSUMPTION (real part not fixed yet)",
+   "sd_abs_m": 0.002,
+   "sd_rel": 0.01,
+   "resolution_m": 0.001
+  },
+  "encoders": "1024 CPR quantization (both profiles)"
+ },
+ "estimator": {
+  "gating": true
+ },
+ "mission": {
+  "goal_run": true,
+  "event_budget": 3000,
+  "max_time_s": 3000.0
+ },
+ "robot": {
+  "wheel_radius_m": 0.052976,
+  "effective_wheel_separation_m": 0.3352,
+  "geometric_wheel_separation_m": 0.2901,
+  "dt_s": 0.01
+ },
+ "lidar": {
+  "mount": {
+   "x_forward_m": 0.18147999695701444,
+   "y_left_m": 0.0013616352069446668,
+   "z_above_floor_m": 0.21999999999999992,
+   "yaw_offset_rad": 0.0,
+   "hokuyo_path": "/FusionBot/mainBase_phy/fastHokuyo",
+   "max_range_m": 5.0,
+   "xyzd_property": "signal.fusionbotLidarXYZD",
+   "count_property": "signal.fusionbotLidarScanCount",
+   "runs_first": true,
+   "scan_divider": 10,
+   "scan_centre_in_base": [
+    0.0,
+    0.0,
+    0.06300000101327902
+   ],
+   "scan_rotation_from_base": [
+    [
+     1.0,
+     -2.83276944882399e-16,
+     0.0
+    ],
+    [
+     2.83276944882399e-16,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  "range_model": {
+   "a": 0.004251764576258998,
+   "b": 1.4607829446612701e-05
+  },
+  "extrinsic": [
+   -0.0020307999669154507,
+   0.0003952470797564803,
+   0.0020695625758638462
+  ],
+  "calibration_file": true
+ },
+ "dynamic": null,
+ "disturbance": null,
+ "offline": null,
+ "created": "2026-10-21T13:15:08",
+ "python": "3.11.15",
+ "platform": "Windows-10-10.0.26200-SP0",
+ "finished": true,
+ "wall_time_s": 3416.807904599991
+}

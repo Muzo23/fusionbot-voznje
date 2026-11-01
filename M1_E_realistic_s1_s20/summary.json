@@ -1,0 +1,96 @@
+{
+ "maze": "M1",
+ "configuration": "E",
+ "noise": "realistic",
+ "seed": 1,
+ "final_state": "FINISHED",
+ "fault": null,
+ "stop_timeouts": 0,
+ "explore_reason": "complete",
+ "simulated_s": 498.5399999996916,
+ "ticks": 49804,
+ "events": 48,
+ "S1_explored": true,
+ "S2_no_collision": true,
+ "safety_abort": false,
+ "S3_goal_reached": true,
+ "S4_mission_success": true,
+ "T_map_correct": true,
+ "T_memory_junctions": 19,
+ "T_true_nodes_visited": 19,
+ "T_duplicates": [],
+ "T_false_merges": [],
+ "T_edges_correct": 19,
+ "T_edges_wrong": 0,
+ "T_loop_closures": 1,
+ "T_max_match_distance_m": 0.23722576104960158,
+ "E1_explore_s": 390.19999999978967,
+ "path_length_gt_m": 72.40901012781633,
+ "L_event_pos_err_mean_m": 0.005339106353363159,
+ "L_event_pos_err_max_m": 0.012063023364089542,
+ "L_event_heading_err_max_deg": 0.6618360639035697,
+ "L_final_pos_err_m": 0.0033349641356900167,
+ "L_final_heading_err_deg": 0.05302645144625497,
+ "lidar_scans": 4980,
+ "estimator": "ekf",
+ "estimator_stats": {
+  "updates": {
+   "prox_corridor": {
+    "accepted": 1021,
+    "rejected": 6
+   },
+   "lidar_plain": {
+    "accepted": 4971,
+    "rejected": 0
+   },
+   "prox_wall": {
+    "accepted": 2154,
+    "rejected": 1
+   },
+   "junction": {
+    "accepted": 46,
+    "rejected": 1
+   },
+   "zupt": {
+    "accepted": 2282,
+    "rejected": 671
+   }
+  },
+  "zupt_ticks": 2953,
+  "bias_resets": 0,
+  "lidar_no_match": 9,
+  "gyro_bias_final_deg_s": -18.85405170924606
+ },
+ "gyro_start_bias_estimate_deg_s": -18.853315371950302,
+ "gyro_start_bias_rad_s": -0.32905242815739216,
+ "gyro_start_samples": 51,
+ "gyro_true_initial_bias_deg_s": -18.856833121070036,
+ "dyn_scenario": null,
+ "dyn_obstacles": [],
+ "dyn_triggered": [],
+ "dyn_stops": 0,
+ "dyn_resumes": 0,
+ "dyn_turnbacks": 0,
+ "dyn_blocked": [],
+ "disturbance": null,
+ "noise_scale": null,
+ "mission_reason": "goal_reached",
+ "goal_node": "c4_4",
+ "robot_true_nodes_at_end": [
+  "c4_4"
+ ],
+ "dist_to_goal_m": 0.021888964148066785,
+ "goal_junction": 16,
+ "goal_junction_dist_m": 0.0015289093163109288,
+ "E2_goal_run_s": 107.83999999990192,
+ "goal_run_length_gt_m": 16.03325211011827,
+ "optimal_length_m": 15.531118000000001,
+ "optimal_nodes": 10,
+ "E3_route_ratio": 1.0323308412258712,
+ "wall_time_s": 649.5790776000067,
+ "P_min_clearance_m": 0.01448925942669421,
+ "lidar_qa_median_abs_mm": 1.0454555806033161,
+ "lidar_qa_p90_abs_mm": 4.7207904611858424,
+ "L1_pos_rmse_m": 0.006679572502285524,
+ "K1_wall_rmse_mm": 17.523702254364558
+}

@@ -1,0 +1,2185 @@
+{
+ "junctions": [
+  {
+   "id": 0,
+   "x": 0.0,
+   "y": -1.422634,
+   "kind": "START",
+   "exits": [
+    "N"
+   ],
+   "visits": 1,
+   "edges": {
+    "N": 0
+   }
+  },
+  {
+   "id": 1,
+   "x": 3.848514826823189e-05,
+   "y": 0.0023654578612795074,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "S": 0,
+    "W": 1,
+    "N": 2
+   }
+  },
+  {
+   "id": 2,
+   "x": -2.1677716775645663,
+   "y": 0.0008012701604843388,
+   "kind": "DEAD_END",
+   "exits": [
+    "E"
+   ],
+   "visits": 1,
+   "edges": {
+    "E": 1
+   }
+  },
+  {
+   "id": 3,
+   "x": -0.5090053115569498,
+   "y": 5.535154775395804,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "S"
+   ],
+   "visits": 1,
+   "edges": {
+    "S": 2,
+    "E": 3
+   }
+  },
+  {
+   "id": 4,
+   "x": 4.907690995545879,
+   "y": 5.829575979512946,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "W": 3,
+    "N": 4,
+    "S": 5
+   }
+  },
+  {
+   "id": 5,
+   "x": 4.698977488034599,
+   "y": 7.991790584631273,
+   "kind": "DEAD_END",
+   "exits": [
+    "S"
+   ],
+   "visits": 1,
+   "edges": {
+    "S": 4
+   }
+  },
+  {
+   "id": 6,
+   "x": 6.107653690163634,
+   "y": 0.5136670546990963,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "N": 5,
+    "E": 6,
+    "W": 7
+   }
+  },
+  {
+   "id": 7,
+   "x": 8.217487029429861,
+   "y": 1.0075214169302869,
+   "kind": "DEAD_END",
+   "exits": [
+    "W"
+   ],
+   "visits": 1,
+   "edges": {
+    "W": 6
+   }
+  },
+  {
+   "id": 8,
+   "x": 0.9866930901552501,
+   "y": -1.3484614678159224,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 3,
+   "edges": {
+    "E": 7,
+    "S": 8,
+    "W": 9,
+    "N": 10
+   }
+  },
+  {
+   "id": 9,
+   "x": 1.7349413229425925,
+   "y": -2.938699651284341,
+   "kind": "DEAD_END",
+   "exits": [
+    "N"
+   ],
+   "visits": 1,
+   "edges": {
+    "N": 8
+   }
+  },
+  {
+   "id": 10,
+   "x": -0.9054427975217005,
+   "y": -2.5238865929164787,
+   "kind": "DEAD_END",
+   "exits": [
+    "E"
+   ],
+   "visits": 1,
+   "edges": {
+    "E": 9
+   }
+  },
+  {
+   "id": 11,
+   "x": -2.350155759693482,
+   "y": 3.0372573634283575,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "S"
+   ],
+   "visits": 1,
+   "edges": {
+    "S": 10,
+    "E": 11
+   }
+  },
+  {
+   "id": 12,
+   "x": 2.241334965913071,
+   "y": 6.1560998330990975,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "W": 11,
+    "N": 12,
+    "S": 13
+   }
+  },
+  {
+   "id": 13,
+   "x": 0.7608028310956404,
+   "y": 7.973744314675534,
+   "kind": "DEAD_END",
+   "exits": [
+    "S"
+   ],
+   "visits": 1,
+   "edges": {
+    "S": 12
+   }
+  },
+  {
+   "id": 14,
+   "x": 5.876467060910912,
+   "y": 2.3461250309979595,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 3,
+   "edges": {
+    "N": 13,
+    "E": 14,
+    "S": 15,
+    "W": 46
+   }
+  },
+  {
+   "id": 15,
+   "x": 7.394124164572921,
+   "y": 3.820701763291369,
+   "kind": "DEAD_END",
+   "exits": [
+    "W"
+   ],
+   "visits": 1,
+   "edges": {
+    "W": 14
+   }
+  },
+  {
+   "id": 16,
+   "x": 2.4580427412866612,
+   "y": -1.9646097223688956,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 3,
+   "edges": {
+    "N": 15,
+    "E": 16,
+    "S": 17,
+    "W": 18
+   }
+  },
+  {
+   "id": 17,
+   "x": 3.89456625918602,
+   "y": -3.0290873819361925,
+   "kind": "DEAD_END",
+   "exits": [
+    "W"
+   ],
+   "visits": 1,
+   "edges": {
+    "W": 16
+   }
+  },
+  {
+   "id": 18,
+   "x": 1.433787892198023,
+   "y": -4.049685321176454,
+   "kind": "DEAD_END",
+   "exits": [
+    "N"
+   ],
+   "visits": 1,
+   "edges": {
+    "N": 17
+   }
+  },
+  {
+   "id": 19,
+   "x": -2.751593231966493,
+   "y": -0.10978774173422118,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N"
+   ],
+   "visits": 1,
+   "edges": {
+    "E": 18,
+    "N": 19
+   }
+  },
+  {
+   "id": 20,
+   "x": -0.6186089566971366,
+   "y": 4.877771570570093,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "S",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "S": 19,
+    "W": 20,
+    "E": 21
+   }
+  },
+  {
+   "id": 21,
+   "x": -2.6556024763768233,
+   "y": 5.632272955312714,
+   "kind": "DEAD_END",
+   "exits": [
+    "E"
+   ],
+   "visits": 1,
+   "edges": {
+    "E": 20
+   }
+  },
+  {
+   "id": 22,
+   "x": 4.655999936074341,
+   "y": 3.5404908320681234,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "W": 21,
+    "N": 22,
+    "S": 23
+   }
+  },
+  {
+   "id": 23,
+   "x": 4.3393569875547895,
+   "y": 6.699462942174436,
+   "kind": "DEAD_END",
+   "exits": [
+    "S"
+   ],
+   "visits": 1,
+   "edges": {
+    "S": 22
+   }
+  },
+  {
+   "id": 24,
+   "x": 4.8848544968698135,
+   "y": -1.0697040505957527,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 3,
+   "edges": {
+    "N": 23,
+    "E": 24,
+    "S": 25,
+    "W": 26
+   }
+  },
+  {
+   "id": 25,
+   "x": 6.359295472551618,
+   "y": -0.9505202328023413,
+   "kind": "DEAD_END",
+   "exits": [
+    "W"
+   ],
+   "visits": 1,
+   "edges": {
+    "W": 24
+   }
+  },
+  {
+   "id": 26,
+   "x": 5.4036304230364305,
+   "y": -3.3396303859348144,
+   "kind": "DEAD_END",
+   "exits": [
+    "N"
+   ],
+   "visits": 1,
+   "edges": {
+    "N": 25
+   }
+  },
+  {
+   "id": 27,
+   "x": -0.3478592786422124,
+   "y": -3.315318837700756,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N"
+   ],
+   "visits": 1,
+   "edges": {
+    "E": 26,
+    "N": 27
+   }
+  },
+  {
+   "id": 28,
+   "x": -2.184605620815695,
+   "y": 1.7881341391292587,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "S",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "S": 27,
+    "W": 28,
+    "E": 29
+   }
+  },
+  {
+   "id": 29,
+   "x": -4.194234647770134,
+   "y": 0.9631543527648775,
+   "kind": "DEAD_END",
+   "exits": [
+    "E"
+   ],
+   "visits": 1,
+   "edges": {
+    "E": 28
+   }
+  },
+  {
+   "id": 30,
+   "x": 2.280135336098426,
+   "y": 4.348679726229472,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "W": 29,
+    "N": 30,
+    "S": 31
+   }
+  },
+  {
+   "id": 31,
+   "x": 0.8515829856955939,
+   "y": 6.270126667335849,
+   "kind": "DEAD_END",
+   "exits": [
+    "S"
+   ],
+   "visits": 1,
+   "edges": {
+    "S": 30
+   }
+  },
+  {
+   "id": 32,
+   "x": 5.658810318413798,
+   "y": 0.25195919937307504,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "N": 31,
+    "E": 32,
+    "S": 33
+   }
+  },
+  {
+   "id": 33,
+   "x": 6.747189192156591,
+   "y": 1.175411941653023,
+   "kind": "DEAD_END",
+   "exits": [
+    "W"
+   ],
+   "visits": 1,
+   "edges": {
+    "W": 32
+   }
+  },
+  {
+   "id": 34,
+   "x": 1.7221973136380229,
+   "y": -3.8293827732393395,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N"
+   ],
+   "visits": 2,
+   "edges": {
+    "E": 33,
+    "N": 34
+   }
+  },
+  {
+   "id": 35,
+   "x": -1.92824415705547,
+   "y": 0.18594036650561757,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 4,
+   "edges": {
+    "S": 34,
+    "W": 35,
+    "N": 36,
+    "E": 47
+   }
+  },
+  {
+   "id": 36,
+   "x": -3.468302421799266,
+   "y": -1.3421346205407454,
+   "kind": "DEAD_END",
+   "exits": [
+    "E"
+   ],
+   "visits": 1,
+   "edges": {
+    "E": 35
+   }
+  },
+  {
+   "id": 37,
+   "x": 1.5043961266802177,
+   "y": 4.407864154837125,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "S",
+    "W"
+   ],
+   "visits": 3,
+   "edges": {
+    "S": 36,
+    "W": 37,
+    "E": 38
+   }
+  },
+  {
+   "id": 38,
+   "x": -0.19609477922109003,
+   "y": 5.549229606095181,
+   "kind": "DEAD_END",
+   "exits": [
+    "E"
+   ],
+   "visits": 1,
+   "edges": {
+    "E": 37
+   }
+  },
+  {
+   "id": 39,
+   "x": 6.156072147893443,
+   "y": 1.3765872659938385,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 4,
+   "edges": {
+    "W": 38,
+    "N": 39,
+    "E": 40,
+    "S": 41
+   }
+  },
+  {
+   "id": 40,
+   "x": 6.9922897400581805,
+   "y": 2.80281743963264,
+   "kind": "DEAD_END",
+   "exits": [
+    "S"
+   ],
+   "visits": 1,
+   "edges": {
+    "S": 39
+   }
+  },
+  {
+   "id": 41,
+   "x": 8.278139846733524,
+   "y": 0.2621654491793265,
+   "kind": "DEAD_END",
+   "exits": [
+    "W"
+   ],
+   "visits": 1,
+   "edges": {
+    "W": 40
+   }
+  },
+  {
+   "id": 42,
+   "x": 4.718662833970226,
+   "y": -4.254845230089579,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "N",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "N": 41,
+    "W": 42
+   }
+  },
+  {
+   "id": 43,
+   "x": -0.335151678385221,
+   "y": -2.740754514177084,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S"
+   ],
+   "visits": 3,
+   "edges": {
+    "E": 42,
+    "S": 43,
+    "N": 44
+   }
+  },
+  {
+   "id": 44,
+   "x": -0.8647066682376705,
+   "y": -4.839655263775439,
+   "kind": "DEAD_END",
+   "exits": [
+    "N"
+   ],
+   "visits": 1,
+   "edges": {
+    "N": 43
+   }
+  },
+  {
+   "id": 45,
+   "x": 0.3422784428176946,
+   "y": 2.663489084771257,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "S",
+    "W"
+   ],
+   "visits": 3,
+   "edges": {
+    "S": 44,
+    "W": 45,
+    "E": 46
+   }
+  },
+  {
+   "id": 46,
+   "x": -1.8087511016379716,
+   "y": 2.9221873482008753,
+   "kind": "DEAD_END",
+   "exits": [
+    "E"
+   ],
+   "visits": 1,
+   "edges": {
+    "E": 45
+   }
+  },
+  {
+   "id": 47,
+   "x": 5.423981676326625,
+   "y": -3.2578207808649227,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "N",
+    "W"
+   ],
+   "visits": 2,
+   "edges": {
+    "W": 47,
+    "N": 48
+   }
+  },
+  {
+   "id": 48,
+   "x": 5.425283172714624,
+   "y": 2.1660226894310606,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S",
+    "W"
+   ],
+   "visits": 1,
+   "edges": {
+    "S": 48,
+    "W": 49
+   }
+  },
+  {
+   "id": 49,
+   "x": 0.007071745100648785,
+   "y": 2.171782995387694,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "S",
+    "W"
+   ],
+   "visits": 1,
+   "edges": {
+    "E": 49,
+    "S": 50
+   }
+  },
+  {
+   "id": 50,
+   "x": 0.0010160638299118274,
+   "y": -3.25459284739815,
+   "kind": "SIDE_CONFIRMED",
+   "exits": [
+    "E",
+    "N",
+    "S"
+   ],
+   "visits": 1,
+   "edges": {
+    "N": 50,
+    "E": 47
+   }
+  }
+ ],
+ "edges": [
+  {
+   "id": 0,
+   "a": 0,
+   "dir_a": "N",
+   "b": 1,
+   "dir_b": "S",
+   "traversals": 1
+  },
+  {
+   "id": 1,
+   "a": 1,
+   "dir_a": "W",
+   "b": 2,
+   "dir_b": "E",
+   "traversals": 2
+  },
+  {
+   "id": 2,
+   "a": 1,
+   "dir_a": "N",
+   "b": 3,
+   "dir_b": "S",
+   "traversals": 1
+  },
+  {
+   "id": 3,
+   "a": 3,
+   "dir_a": "E",
+   "b": 4,
+   "dir_b": "W",
+   "traversals": 1
+  },
+  {
+   "id": 4,
+   "a": 4,
+   "dir_a": "N",
+   "b": 5,
+   "dir_b": "S",
+   "traversals": 2
+  },
+  {
+   "id": 5,
+   "a": 4,
+   "dir_a": "S",
+   "b": 6,
+   "dir_b": "N",
+   "traversals": 1
+  },
+  {
+   "id": 6,
+   "a": 6,
+   "dir_a": "E",
+   "b": 7,
+   "dir_b": "W",
+   "traversals": 2
+  },
+  {
+   "id": 7,
+   "a": 6,
+   "dir_a": "W",
+   "b": 8,
+   "dir_b": "E",
+   "traversals": 1
+  },
+  {
+   "id": 8,
+   "a": 8,
+   "dir_a": "S",
+   "b": 9,
+   "dir_b": "N",
+   "traversals": 2
+  },
+  {
+   "id": 9,
+   "a": 8,
+   "dir_a": "W",
+   "b": 10,
+   "dir_b": "E",
+   "traversals": 2
+  },
+  {
+   "id": 10,
+   "a": 8,
+   "dir_a": "N",
+   "b": 11,
+   "dir_b": "S",
+   "traversals": 1
+  },
+  {
+   "id": 11,
+   "a": 11,
+   "dir_a": "E",
+   "b": 12,
+   "dir_b": "W",
+   "traversals": 1
+  },
+  {
+   "id": 12,
+   "a": 12,
+   "dir_a": "N",
+   "b": 13,
+   "dir_b": "S",
+   "traversals": 2
+  },
+  {
+   "id": 13,
+   "a": 12,
+   "dir_a": "S",
+   "b": 14,
+   "dir_b": "N",
+   "traversals": 1
+  },
+  {
+   "id": 14,
+   "a": 14,
+   "dir_a": "E",
+   "b": 15,
+   "dir_b": "W",
+   "traversals": 2
+  },
+  {
+   "id": 15,
+   "a": 14,
+   "dir_a": "S",
+   "b": 16,
+   "dir_b": "N",
+   "traversals": 1
+  },
+  {
+   "id": 16,
+   "a": 16,
+   "dir_a": "E",
+   "b": 17,
+   "dir_b": "W",
+   "traversals": 2
+  },
+  {
+   "id": 17,
+   "a": 16,
+   "dir_a": "S",
+   "b": 18,
+   "dir_b": "N",
+   "traversals": 2
+  },
+  {
+   "id": 18,
+   "a": 16,
+   "dir_a": "W",
+   "b": 19,
+   "dir_b": "E",
+   "traversals": 1
+  },
+  {
+   "id": 19,
+   "a": 19,
+   "dir_a": "N",
+   "b": 20,
+   "dir_b": "S",
+   "traversals": 1
+  },
+  {
+   "id": 20,
+   "a": 20,
+   "dir_a": "W",
+   "b": 21,
+   "dir_b": "E",
+   "traversals": 2
+  },
+  {
+   "id": 21,
+   "a": 20,
+   "dir_a": "E",
+   "b": 22,
+   "dir_b": "W",
+   "traversals": 1
+  },
+  {
+   "id": 22,
+   "a": 22,
+   "dir_a": "N",
+   "b": 23,
+   "dir_b": "S",
+   "traversals": 2
+  },
+  {
+   "id": 23,
+   "a": 22,
+   "dir_a": "S",
+   "b": 24,
+   "dir_b": "N",
+   "traversals": 1
+  },
+  {
+   "id": 24,
+   "a": 24,
+   "dir_a": "E",
+   "b": 25,
+   "dir_b": "W",
+   "traversals": 2
+  },
+  {
+   "id": 25,
+   "a": 24,
+   "dir_a": "S",
+   "b": 26,
+   "dir_b": "N",
+   "traversals": 2
+  },
+  {
+   "id": 26,
+   "a": 24,
+   "dir_a": "W",
+   "b": 27,
+   "dir_b": "E",
+   "traversals": 1
+  },
+  {
+   "id": 27,
+   "a": 27,
+   "dir_a": "N",
+   "b": 28,
+   "dir_b": "S",
+   "traversals": 1
+  },
+  {
+   "id": 28,
+   "a": 28,
+   "dir_a": "W",
+   "b": 29,
+   "dir_b": "E",
+   "traversals": 2
+  },
+  {
+   "id": 29,
+   "a": 28,
+   "dir_a": "E",
+   "b": 30,
+   "dir_b": "W",
+   "traversals": 1
+  },
+  {
+   "id": 30,
+   "a": 30,
+   "dir_a": "N",
+   "b": 31,
+   "dir_b": "S",
+   "traversals": 2
+  },
+  {
+   "id": 31,
+   "a": 30,
+   "dir_a": "S",
+   "b": 32,
+   "dir_b": "N",
+   "traversals": 1
+  },
+  {
+   "id": 32,
+   "a": 32,
+   "dir_a": "E",
+   "b": 33,
+   "dir_b": "W",
+   "traversals": 2
+  },
+  {
+   "id": 33,
+   "a": 32,
+   "dir_a": "S",
+   "b": 34,
+   "dir_b": "E",
+   "traversals": 1
+  },
+  {
+   "id": 34,
+   "a": 34,
+   "dir_a": "N",
+   "b": 35,
+   "dir_b": "S",
+   "traversals": 2
+  },
+  {
+   "id": 35,
+   "a": 35,
+   "dir_a": "W",
+   "b": 36,
+   "dir_b": "E",
+   "traversals": 2
+  },
+  {
+   "id": 36,
+   "a": 35,
+   "dir_a": "N",
+   "b": 37,
+   "dir_b": "S",
+   "traversals": 2
+  },
+  {
+   "id": 37,
+   "a": 37,
+   "dir_a": "W",
+   "b": 38,
+   "dir_b": "E",
+   "traversals": 2
+  },
+  {
+   "id": 38,
+   "a": 37,
+   "dir_a": "E",
+   "b": 39,
+   "dir_b": "W",
+   "traversals": 2
+  },
+  {
+   "id": 39,
+   "a": 39,
+   "dir_a": "N",
+   "b": 40,
+   "dir_b": "S",
+   "traversals": 2
+  },
+  {
+   "id": 40,
+   "a": 39,
+   "dir_a": "E",
+   "b": 41,
+   "dir_b": "W",
+   "traversals": 2
+  },
+  {
+   "id": 41,
+   "a": 39,
+   "dir_a": "S",
+   "b": 42,
+   "dir_b": "N",
+   "traversals": 2
+  },
+  {
+   "id": 42,
+   "a": 42,
+   "dir_a": "W",
+   "b": 43,
+   "dir_b": "E",
+   "traversals": 2
+  },
+  {
+   "id": 43,
+   "a": 43,
+   "dir_a": "S",
+   "b": 44,
+   "dir_b": "N",
+   "traversals": 2
+  },
+  {
+   "id": 44,
+   "a": 43,
+   "dir_a": "N",
+   "b": 45,
+   "dir_b": "S",
+   "traversals": 2
+  },
+  {
+   "id": 45,
+   "a": 45,
+   "dir_a": "W",
+   "b": 46,
+   "dir_b": "E",
+   "traversals": 2
+  },
+  {
+   "id": 46,
+   "a": 45,
+   "dir_a": "E",
+   "b": 14,
+   "dir_b": "W",
+   "traversals": 2
+  },
+  {
+   "id": 47,
+   "a": 35,
+   "dir_a": "E",
+   "b": 47,
+   "dir_b": "W",
+   "traversals": 3
+  },
+  {
+   "id": 48,
+   "a": 47,
+   "dir_a": "N",
+   "b": 48,
+   "dir_b": "S",
+   "traversals": 1
+  },
+  {
+   "id": 49,
+   "a": 48,
+   "dir_a": "W",
+   "b": 49,
+   "dir_b": "E",
+   "traversals": 1
+  },
+  {
+   "id": 50,
+   "a": 49,
+   "dir_a": "S",
+   "b": 50,
+   "dir_b": "N",
+   "traversals": 1
+  }
+ ],
+ "events": [
+  {
+   "junction": 1,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    3.848514826823189e-05,
+    0.0023654578612795074
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 2,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    -2.1677716775645663,
+    0.0008012701604843388
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 1,
+   "new": false,
+   "heading": "E",
+   "centre": [
+    0.005537001399277153,
+    0.16284788949598633
+   ],
+   "match_distance_m": 0.16057660023911005,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 3,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    -0.5090053115569498,
+    5.535154775395804
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 4,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    4.907690995545879,
+    5.829575979512946
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 5,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    4.698977488034599,
+    7.991790584631273
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 4,
+   "new": false,
+   "heading": "S",
+   "centre": [
+    5.1048906102309095,
+    5.847693547139407
+   ],
+   "match_distance_m": 0.19803013479928716,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 6,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    6.107653690163634,
+    0.5136670546990963
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 7,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    8.217487029429861,
+    1.0075214169302869
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 6,
+   "new": false,
+   "heading": "W",
+   "centre": [
+    6.14558788238387,
+    0.3298508882480724
+   ],
+   "match_distance_m": 0.18768960010653857,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 8,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    0.9866930901552501,
+    -1.3484614678159224
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 9,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    1.7349413229425925,
+    -2.938699651284341
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 8,
+   "new": false,
+   "heading": "N",
+   "centre": [
+    0.9808370960136689,
+    -1.4516639813180492
+   ],
+   "match_distance_m": 0.10336852258082682,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 10,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    -0.9054427975217005,
+    -2.5238865929164787
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 8,
+   "new": false,
+   "heading": "E",
+   "centre": [
+    0.8967090854871156,
+    -1.3063484108065044
+   ],
+   "match_distance_m": 0.09935104763812677,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 11,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    -2.350155759693482,
+    3.0372573634283575
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 12,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    2.241334965913071,
+    6.1560998330990975
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 13,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    0.7608028310956404,
+    7.973744314675534
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 12,
+   "new": false,
+   "heading": "S",
+   "centre": [
+    2.2291225097297733,
+    6.362280910587088
+   ],
+   "match_distance_m": 0.20654244309617717,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 14,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    5.876467060910912,
+    2.3461250309979595
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 15,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    7.394124164572921,
+    3.820701763291369
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 14,
+   "new": false,
+   "heading": "S",
+   "centre": [
+    5.9828980888970005,
+    2.1624679943983707
+   ],
+   "match_distance_m": 0.212267451133513,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 16,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    2.4580427412866612,
+    -1.9646097223688956
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 17,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    3.89456625918602,
+    -3.0290873819361925
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 16,
+   "new": false,
+   "heading": "W",
+   "centre": [
+    2.4792221112654307,
+    -2.156442964227774
+   ],
+   "match_distance_m": 0.1929988559416466,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 18,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    1.433787892198023,
+    -4.049685321176454
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 16,
+   "new": false,
+   "heading": "N",
+   "centre": [
+    2.313686222149809,
+    -2.0609380781054427
+   ],
+   "match_distance_m": 0.17354525846653135,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 19,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    -2.751593231966493,
+    -0.10978774173422118
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 20,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    -0.6186089566971366,
+    4.877771570570093
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 21,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    -2.6556024763768233,
+    5.632272955312714
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 20,
+   "new": false,
+   "heading": "E",
+   "centre": [
+    -0.5614428911374847,
+    5.036258754057162
+   ],
+   "match_distance_m": 0.16848188739812459,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 22,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    4.655999936074341,
+    3.5404908320681234
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 23,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    4.3393569875547895,
+    6.699462942174436
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 22,
+   "new": false,
+   "heading": "S",
+   "centre": [
+    4.498661910555504,
+    4.341200490760514
+   ],
+   "match_distance_m": 0.8160215755710448,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 24,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    4.8848544968698135,
+    -1.0697040505957527
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 25,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    6.359295472551618,
+    -0.9505202328023413
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 24,
+   "new": false,
+   "heading": "W",
+   "centre": [
+    4.872909252995597,
+    -1.2361597988425173
+   ],
+   "match_distance_m": 0.16688380681062132,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 26,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    5.4036304230364305,
+    -3.3396303859348144
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 24,
+   "new": false,
+   "heading": "N",
+   "centre": [
+    4.684300049363645,
+    -1.2871622482180474
+   ],
+   "match_distance_m": 0.2958211522654211,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 27,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    -0.3478592786422124,
+    -3.315318837700756
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 28,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    -2.184605620815695,
+    1.7881341391292587
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 29,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    -4.194234647770134,
+    0.9631543527648775
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 28,
+   "new": false,
+   "heading": "E",
+   "centre": [
+    -2.4424431833255458,
+    1.6788210815351283
+   ],
+   "match_distance_m": 0.2800527686019168,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 30,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    2.280135336098426,
+    4.348679726229472
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 31,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    0.8515829856955939,
+    6.270126667335849
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 30,
+   "new": false,
+   "heading": "S",
+   "centre": [
+    2.2337671444207023,
+    4.590525783413884
+   ],
+   "match_distance_m": 0.24625093822178276,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 32,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    5.658810318413798,
+    0.25195919937307504
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 33,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    6.747189192156591,
+    1.175411941653023
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 32,
+   "new": false,
+   "heading": "S",
+   "centre": [
+    5.570653430899976,
+    -0.005516549169161611
+   ],
+   "match_distance_m": 0.2721495873660472,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 34,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    1.7221973136380229,
+    -3.8293827732393395
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": [
+    18
+   ]
+  },
+  {
+   "junction": 35,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    -1.92824415705547,
+    0.18594036650561757
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": [
+    2
+   ]
+  },
+  {
+   "junction": 36,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    -3.468302421799266,
+    -1.3421346205407454
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 35,
+   "new": false,
+   "heading": "N",
+   "centre": [
+    -2.0482321577814777,
+    0.3046813255435149
+   ],
+   "match_distance_m": 0.1688091693939166,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 37,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    1.5043961266802177,
+    4.407864154837125
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 38,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    -0.19609477922109003,
+    5.549229606095181
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": [
+    3
+   ]
+  },
+  {
+   "junction": 37,
+   "new": false,
+   "heading": "E",
+   "centre": [
+    1.621634498567384,
+    4.358937855385446
+   ],
+   "match_distance_m": 0.12703786294167935,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 39,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    6.156072147893443,
+    1.3765872659938385
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 40,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    6.9922897400581805,
+    2.80281743963264
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 39,
+   "new": false,
+   "heading": "S",
+   "centre": [
+    6.284776045982274,
+    1.2984676916644362
+   ],
+   "match_distance_m": 0.15055683736272862,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 41,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    8.278139846733524,
+    0.2621654491793265
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 39,
+   "new": false,
+   "heading": "W",
+   "centre": [
+    6.213472875769598,
+    0.9606232620460489
+   ],
+   "match_distance_m": 0.4199058181794926,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 42,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    4.718662833970226,
+    -4.254845230089579
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 43,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    -0.335151678385221,
+    -2.740754514177084
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 44,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    -0.8647066682376705,
+    -4.839655263775439
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 43,
+   "new": false,
+   "heading": "N",
+   "centre": [
+    -0.5226388130599523,
+    -2.6946119990392745
+   ],
+   "match_distance_m": 0.19308173754082444,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 45,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    0.3422784428176946,
+    2.663489084771257
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 46,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    -1.8087511016379716,
+    2.9221873482008753
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 45,
+   "new": false,
+   "heading": "E",
+   "centre": [
+    0.36709781827129406,
+    2.8389323366398185
+   ],
+   "match_distance_m": 0.17719011265903714,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 14,
+   "new": false,
+   "heading": "E",
+   "centre": [
+    5.790257508369425,
+    2.62293204346709
+   ],
+   "match_distance_m": 0.28992103942537295,
+   "loop_closure": true,
+   "rejected_structure": []
+  },
+  {
+   "junction": 45,
+   "new": false,
+   "heading": "W",
+   "centre": [
+    0.5272110507040287,
+    2.170720970688704
+   ],
+   "match_distance_m": 0.5263273541400985,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 43,
+   "new": false,
+   "heading": "S",
+   "centre": [
+    0.00027048278411765866,
+    -3.2531643357515483
+   ],
+   "match_distance_m": 0.612431099348722,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 42,
+   "new": false,
+   "heading": "E",
+   "centre": [
+    5.423703496107425,
+    -3.255271689924615
+   ],
+   "match_distance_m": 1.223204642512764,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 39,
+   "new": false,
+   "heading": "N",
+   "centre": [
+    5.425345904441196,
+    2.169645088727907
+   ],
+   "match_distance_m": 1.0783791323414664,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 37,
+   "new": false,
+   "heading": "W",
+   "centre": [
+    0.00772195852500035,
+    2.170467087901898
+   ],
+   "match_distance_m": 2.691835656341871,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 35,
+   "new": false,
+   "heading": "S",
+   "centre": [
+    -0.000317111455566232,
+    -3.2515578472372493
+   ],
+   "match_distance_m": 3.941230348842982,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 47,
+   "new": true,
+   "heading": "E",
+   "centre": [
+    5.423981676326625,
+    -3.2578207808649227
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": [
+    26
+   ]
+  },
+  {
+   "junction": 48,
+   "new": true,
+   "heading": "N",
+   "centre": [
+    5.425283172714624,
+    2.1660226894310606
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 49,
+   "new": true,
+   "heading": "W",
+   "centre": [
+    0.007071745100648785,
+    2.171782995387694
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 50,
+   "new": true,
+   "heading": "S",
+   "centre": [
+    0.0010160638299118274,
+    -3.25459284739815
+   ],
+   "match_distance_m": null,
+   "loop_closure": false,
+   "rejected_structure": [
+    27
+   ]
+  },
+  {
+   "junction": 47,
+   "new": false,
+   "heading": "E",
+   "centre": [
+    5.424890140608758,
+    -3.2551829231024505
+   ],
+   "match_distance_m": 0.0027899105589508475,
+   "loop_closure": false,
+   "rejected_structure": [
+    26
+   ]
+  },
+  {
+   "junction": 35,
+   "new": false,
+   "heading": "W",
+   "centre": [
+    -0.008843780132848922,
+    -3.255907190113448
+   ],
+   "match_distance_m": 3.940864424201286,
+   "loop_closure": false,
+   "rejected_structure": []
+  },
+  {
+   "junction": 34,
+   "new": false,
+   "heading": "S",
+   "centre": [
+    0.0009140273402022969,
+    -5.425156944677037
+   ],
+   "match_distance_m": 2.347192228582034,
+   "loop_closure": false,
+   "rejected_structure": []
+  }
+ ]
+}
